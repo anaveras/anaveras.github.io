@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Akkurat;
+    src: url('../font/Akkurat.ttf');
+} 
+
+@font-face {
+    font-family: BaronNeue;
+    src: url('../font/BaronNeue.otf');
+}
+
+body {
+    font-family: "Akkurat";
+}
+
+.title {
+    font-family: "BaronNeue";
+}
+
+#photo {
+    margin-top: 0.905em;
+    height: 9.446em;
+    overflow: hidden;
+}
+
+#photo img {
+    height: 11.13em;
+    border-radius: 50%;
+}
+
+.centered {
+    margin: auto;
+    text-align: center;
+}
+
+#name {
+    border: 0.190em solid;
+    height: 1.643em;
+    width: 16.664em;
+    font-size: 1.742em;    
+}
+
+#cv {
+    border: 0.143em solid;
+    margin-top: 0.768em;
+    height: 1.651em;
+    width: 2.231em;    
+    font-size: 0.973em;
+}
+
+#experience {
+    border-right: 0.075em solid #AA64A5;
+    padding-right: 2.064em;  
+    padding-bottom: 2.064em;
+}
+
+
+hr {
+    width: 2.429em;  
+    border-top: 0.143em solid #AA64A5;
+    margin-top: 0.405em;    
+}
+
+.item {
+    margin-top: 1.404em    
+}
+
+#education {
+    border-left: 0.075em solid #AA64A5;
+    padding-left: 2.025em;
+}
+
+.about {
+    margin-top: 3.354em;    
+}
+
+.progress-bar {
+    background-color: #AA64A5;
+    border-radius: 0;
+}
+
+.progress {
+    background-color: #FFF;
+    border: solid #AA64A5;
+    border-radius: 0;
+}
+
+#contacts {
+    margin-top: 0.848em;    
+    margin-bottom: 0.848em;
+}
